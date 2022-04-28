@@ -60,6 +60,10 @@ $ adb shell pm list packages -3
 # Clearing data of an application
 $ adb shell clear app_package_name
 
+# Start an exported activity from the target app
+
+$ adb shell am start -n package_name/.activity_name
+
 
 ```
 
