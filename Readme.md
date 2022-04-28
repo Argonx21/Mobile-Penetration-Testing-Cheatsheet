@@ -44,6 +44,23 @@ $ adb shell settings put global verifier_verify_adb_installs 0
 
 # Disable verification package
 $ adb shell settings put global package_verifier_enable 0
+
+# List out packages installed on the devicem
+
+1. To list all the available packages
+$ adb shell pm list packages
+
+2. To list packages related to the system
+$ adb shell pm list packages -s
+
+3. To list out third party packages
+$ adb shell pm list packages -3
+
+
+# Clearing data of an application
+$ adb shell clear app_package_name
+
+
 ```
 
 ## Frida Cheatsheet
