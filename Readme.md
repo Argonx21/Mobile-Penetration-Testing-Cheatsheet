@@ -46,7 +46,7 @@ $ adb shell settings put global verifier_verify_adb_installs 0
 $ adb shell settings put global package_verifier_enable 0
 
 # List out packages installed on the devicem
-
+--------------------------------------------
 1. To list all the available packages
 $ adb shell pm list packages
 
